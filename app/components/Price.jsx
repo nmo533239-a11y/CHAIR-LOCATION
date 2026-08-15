@@ -6,7 +6,7 @@ import { FaCheck } from "react-icons/fa";
 export default function Price(){
     const [isYearly,setIsYearly]=useState(false)
     return(
-        <section className="flex flex-col  items-center gap-2 py-16">
+        <section id="price" className="flex flex-col  items-center gap-2 py-16">
             <div    className="flex flex-col justify-center items-center gap-2" >
                 <span>pricing</span>
                 <h2 className="text-5xl font-bold tracking-wide" >simple,transeport lorem</h2>

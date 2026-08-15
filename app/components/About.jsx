@@ -3,7 +3,7 @@ import { FaMapMarkerAlt, FaBriefcase, FaHeadset } from "react-icons/fa";
 
 export default function About() {
   return (
-    <section className="container mx-auto px-4 py-12">
+    <section id="about" className="container mx-auto px-4 py-12">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         
 
@@ -20,7 +20,7 @@ export default function About() {
             Why Chair Location
           </h3>
 
-  
+  8
           <div className="space-y-4">
             <div className="flex gap-2 items-center space-x-4 space-x-reverse">
               <div className="w-12 h-12 rounded-full bg-[#f4ebd0] flex items-center justify-center shrink-0 text-[#3b5323]">

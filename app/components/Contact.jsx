@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Contact() {
     return (
-        <section className="container mx-auto ">
+        <section id="contact" className="container mx-auto ">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
                 
                 <div className="w-full h-[400px]  relative overflow-hidden rounded-3xl shadow-xl">

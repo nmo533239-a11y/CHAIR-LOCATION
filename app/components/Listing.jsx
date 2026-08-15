@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Listing() {
     return (
-        <section className="container mx-auto px-4 py-12">
+        <section id="listing" className="container mx-auto px-4 py-12">
             <div className="text-center mb-8">
                 <h2 className="font-bold text-4xl tracking-wider text-gray-900">Latest Listings</h2>
                 <p className="text-gray-500 mt-2">Check our latest listings</p>

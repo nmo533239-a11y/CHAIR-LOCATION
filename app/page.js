@@ -10,6 +10,9 @@ import Work from './components/Work';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
 
+import Price from './components/Price';
+import Article from './components/Article';
+import Subscribe from './components/Subscribe';
 
 export default function HeroSection() {
   return (
@@ -21,6 +24,9 @@ export default function HeroSection() {
       <Shared />
       <Work />
       <Contact />
+      <Price/>
+      <Article/>
+      <Subscribe/>
       <Footer />
 
     </div>
